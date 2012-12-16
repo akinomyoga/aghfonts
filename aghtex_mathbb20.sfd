@@ -1,8 +1,8 @@
 SplineFontDB: 3.0
-FontName: aghtex_mathbb_xlight
-FullName: aghtex_mathbb_xlight
+FontName: aghtex_mathbb
+FullName: aghtex_mathbb
 FamilyName: aghtex_mathbb
-Weight: Extra-Light
+Weight: Light
 Copyright: Copyright (C) 2012 KM, 1997, 2009 American Mathematical Society (<http://www.ams.org>), with Reserved Font Name MSBM10.
 Version: 3.2.0.1
 ItalicAngle: 0
@@ -20,9 +20,9 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1344259777
-ModificationTime: 1355656824
+ModificationTime: 1355656861
 PfmFamily: 17
-TTFWeight: 200
+TTFWeight: 400
 TTFWidth: 5
 LineGap: 92
 VLineGap: 0
