@@ -1,4 +1,31 @@
 
+
+
+aghtex_mathsymb  roman
+aghtex_mathsyma  roman
+aghtex_mathbb    roman
+aghtex_mathfrak  roman
+aghtex_mathit    italic
+aghtex_mathcal   italic
+aghtex_mathbm    italic
+aghtex_mathscr   italic
+
+*******************************************************************************
+
+  AGHTEX_MATHSCR
+
+-------------------------------------------------------------------------------
+
+2013-11-05 Koichi Murase, aghtex_mathscr-1.2
+  * aghtex_mathscr.sfd: converted for use in aghtex
+
+1998-04-24 Taco Hoekwater, rsfs-1.1
+  * rsfs10.pfb
+
+1991-10-27 Ralph Smith, rsfs-1.0
+  * rsfs10.mf
+
+
 RSFS - Ralph Smith's Formal Script Symbol Fonts
 ------------------------------------------------
 
