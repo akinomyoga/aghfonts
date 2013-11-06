@@ -1,10 +1,10 @@
 SplineFontDB: 3.0
-FontName: aghtex_mathsymb
-FullName: aghtex_mathsymb
-FamilyName: aghtex_mathsymb
+FontName: aghtex_mathrm
+FullName: aghtex_mathrm
+FamilyName: aghtex_mathrm
 Weight: Book
-Copyright: Copyright (C) 2012-2013, Koichi Murase, 1997, 2009, American Mathematical Society (<http://www.ams.org>), with Reserved Font Name MSBM10.
-Version: 1.0.34/2013-11-04
+Copyright: Copyright (C) 2012-2013, Koichi Murase, 1997, 2009, American Mathematical Society <http://www.ams.org>, with Reserved Font Name CMR9, CMSY9, MSBM10.
+Version: 1.0.36/2013-11-04
 ItalicAngle: 0
 UnderlinePosition: -136
 UnderlineWidth: 20
@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 878738956
-ModificationTime: 1383590323
+ModificationTime: 1383761603
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -836,7 +836,7 @@ BlueScale 9 0.0687917
 StemSnapH 10 [33 44 61]
 EndPrivate
 TeXData: 1 0 0 0 0 0 462848 1048576 0 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65550 603
+BeginChars: 65550 604
 
 StartChar: space
 Encoding: 32 32 0
@@ -88844,7 +88844,7 @@ StartChar: digit1
 Encoding: 49 49 594
 Width: 513
 VWidth: 1000
-Flags: HW
+Flags: W
 HStem: -11 52<89 214.934 315.033 442> 561 51<83 212.678>
 VStem: 217 97<57.6424 582>
 TtInstrs:
@@ -89419,7 +89419,7 @@ StartChar: digit4
 Encoding: 52 52 597
 Width: 513
 VWidth: 1000
-Flags: HW
+Flags: W
 HStem: -10 51<192 282.193 397.268 492> 155 51<80 292 392 494>
 VStem: 292.064 99.9363<49.1566 155 206 533>
 TtInstrs:
@@ -90452,6 +90452,65 @@ SplineSet
  192 254 192 254 250 254 c 128,-1,34
 EndSplineSet
 Validated: 19457
+EndChar
+
+StartChar: backslash
+Encoding: 92 92 603
+Width: 513
+VWidth: 1000
+Flags: WO
+VStem: 47 59<743 758.893>
+TtInstrs:
+SVTCA[y-axis]
+SVTCA[x-axis]
+PUSHB_1
+ 38
+MDAP[rnd]
+PUSHB_1
+ 7
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 19
+ 9
+ 0
+ 52
+ 4
+CALL
+PUSHB_2
+ 39
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+401 -229 m 2,0,1
+ 54 706 l 2,2,3
+ 49 718 49 718 48 721 c 0,4,-1
+ 48 723 l 0,5,6
+ 47 726 47 726 47 728 c 0,7,8
+ 47 734 47 734 49 741 c 0,9,10
+ 51 747 51 747 56 751 c 0,11,12
+ 64 758 64 758 70 759 c 0,13,14
+ 74 760 74 760 78 760 c 128,-1,15
+ 82 760 82 760 86 759 c 0,16,17
+ 99 756 99 756 106 744 c 1,18,-1
+ 106 743 l 1,19,-1
+ 459 -206 l 2,20,21
+ 463 -216 463 -216 465 -221 c 2,22,-1
+ 465 -223 l 2,23,24
+ 466 -226 466 -226 466 -228 c 0,25,26
+ 466 -233 466 -233 465 -238 c 128,-1,27
+ 464 -243 464 -243 456 -251 c 0,28,29
+ 451 -256 451 -256 448 -257 c 0,30,31
+ 441 -260 441 -260 435 -260 c 0,32,33
+ 432 -260 432 -260 428 -259 c 0,34,35
+ 423 -258 423 -258 422 -257 c 0,36,37
+ 408 -247 408 -247 401 -229 c 2,0,1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

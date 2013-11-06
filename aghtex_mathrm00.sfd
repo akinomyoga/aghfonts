@@ -1,10 +1,10 @@
 SplineFontDB: 3.0
-FontName: aghtex_mathsymb_xlight
-FullName: aghtex_mathsymb_xlight
-FamilyName: aghtex_mathsymb
+FontName: aghtex_mathrm_xlight
+FullName: aghtex_mathrm_xlight
+FamilyName: aghtex_mathrm
 Weight: Light
-Copyright: Copyright (C) 2012, Koichi Murase, 1997, 2009, American Mathematical Society (<http://www.ams.org>), with Reserved Font Name MSBM10.
-Version: 1.0.28/2012-12-15
+Copyright: Copyright (C) 2012-2013, Koichi Murase, 1997, 2009, American Mathematical Society <http://www.ams.org>, with Reserved Font Name CMR9, CMSY9, MSBM10.
+Version: 1.0.36/2013-11-04
 ItalicAngle: 0
 UnderlinePosition: -136
 UnderlineWidth: 20
@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 878738956
-ModificationTime: 1383588198
+ModificationTime: 1383760861
 PfmFamily: 17
 TTFWeight: 200
 TTFWidth: 5
@@ -839,7 +839,7 @@ StemSnapV 10 [33 44 88]
 BlueScale 9 0.0687917
 StemSnapH 10 [33 44 61]
 EndPrivate
-BeginChars: 65550 602
+BeginChars: 65550 603
 
 StartChar: space
 Encoding: 32 32 0
@@ -86156,6 +86156,28 @@ SplineSet
  206 108 206 108 228 108 c 128,-1,46
  250 108 250 108 266 92 c 128,-1,39
  282 76 282 76 282 54 c 128,-1,40
+EndSplineSet
+EndChar
+
+StartChar: backslash
+Encoding: 92 92 602
+Width: 513
+VWidth: 1000
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+63 710 m 2,0,1
+ 57 724 57 724 57 728 c 0,2,3
+ 57 738 57 738 63 744 c 128,-1,4
+ 69 750 69 750 78 750 c 0,5,6
+ 92 750 92 750 97 740 c 1,7,-1
+ 450 -210 l 2,8,9
+ 456 -224 456 -224 456 -228 c 0,10,11
+ 456 -238 456 -238 449.5 -244 c 128,-1,12
+ 443 -250 443 -250 435 -250 c 0,13,14
+ 418 -250 418 -250 410 -226 c 2,15,-1
+ 63 710 l 2,0,1
 EndSplineSet
 EndChar
 EndChars
