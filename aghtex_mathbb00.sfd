@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 878738956
-ModificationTime: 1383777269
+ModificationTime: 1383777330
 PfmFamily: 17
 TTFWeight: 200
 TTFWidth: 5
@@ -16741,20 +16741,68 @@ Encoding: 46 46 75
 Width: 500
 VWidth: 1006
 Flags: W
-HStem: -200 140<199.708 300.292>
-VStem: 180 140<-180.292 -79.708>
+HStem: -195 130<202.578 297.422>
+VStem: 185 130<-177.422 -82.5781>
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_5
+ 5
+ 8
+ 0
+ 16
+ 4
+CALL
+PUSHB_5
+ 5
+ 8
+ 0
+ 16
+ 4
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 8
+MDAP[rnd]
+PUSHB_1
+ 3
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 7
+ 11
+ 0
+ 16
+ 4
+CALL
+PUSHB_5
+ 7
+ 11
+ 0
+ 16
+ 4
+CALL
+PUSHB_2
+ 9
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-250 -195 m 0,0,1
- 225 -195 225 -195 205 -175 c 0,2,3
- 185 -155 185 -155 185 -130 c 0,4,5
- 185 -105 185 -105 205 -85 c 0,6,7
- 225 -65 225 -65 250 -65 c 0,8,9
- 275 -65 275 -65 295 -85 c 0,10,11
- 315 -105 315 -105 315 -130 c 0,12,13
- 315 -155 315 -155 295 -175 c 0,14,15
- 275 -195 275 -195 250 -195 c 0,0,1
+250 -195 m 128,-1,1
+ 225 -195 225 -195 205 -175 c 128,-1,2
+ 185 -155 185 -155 185 -130 c 128,-1,3
+ 185 -105 185 -105 205 -85 c 128,-1,4
+ 225 -65 225 -65 250 -65 c 128,-1,5
+ 275 -65 275 -65 295 -85 c 128,-1,6
+ 315 -105 315 -105 315 -130 c 128,-1,7
+ 315 -155 315 -155 295 -175 c 128,-1,0
+ 275 -195 275 -195 250 -195 c 128,-1,1
 EndSplineSet
 EndChar
 EndChars
