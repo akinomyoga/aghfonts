@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1344259771
-ModificationTime: 1355658199
+ModificationTime: 1383780318
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -12847,7 +12847,7 @@ SplineSet
  220 -184 l 1,59,-1
  289 -125 l 1,0,1
 EndSplineSet
-Validated: 8391681
+Validated: 3073
 EndChar
 
 StartChar: i
@@ -15317,89 +15317,8 @@ EndSplineSet
 Validated: 19457
 EndChar
 
-StartChar: quotedbl
-Encoding: 125 34 90
-Width: 215
-VWidth: 1000
-Flags: W
-HStem: 427 273
-VStem: 4 77<558.465 697.312> 123 78<554.678 694.444>
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_1
- 11
-MDAP[rnd]
-PUSHB_1
- 22
-SHP[rp1]
-PUSHB_5
- 4
- 5
- 0
- 8
- 4
-CALL
-PUSHB_1
- 16
-SHP[rp2]
-SVTCA[x-axis]
-PUSHB_1
- 24
-MDAP[rnd]
-PUSHB_1
- 2
-MDRP[rp0,rnd,white]
-PUSHB_2
- 9
- 7
-MIRP[min,black]
-PUSHB_1
- 9
-SRP0
-PUSHB_2
- 14
- 1
-CALL
-PUSHB_2
- 19
- 7
-MIRP[min,black]
-PUSHB_2
- 25
- 1
-CALL
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-9 583 m 2,0,1
- 4 623 4 623 4 657 c 0,2,3
- 4 700 4 700 43 700 c 0,4,5
- 56 700 56 700 68.5 694 c 128,-1,6
- 81 688 81 688 81 675 c 2,7,-1
- 81 623 l 1,8,-1
- 81 622 l 1,9,-1
- 59 427 l 1,10,-1
- 30 427 l 1,11,-1
- 9 583 l 2,0,1
-128 624 m 1,12,13
- 123 659 123 659 123 668 c 0,14,15
- 123 697 123 697 167 697 c 0,16,17
- 178 697 178 697 189.5 691 c 128,-1,18
- 201 685 201 685 201 673 c 0,19,20
- 201 641 201 641 200 626 c 2,21,-1
- 181 427 l 1,22,-1
- 151 427 l 1,23,-1
- 128 624 l 1,12,13
-EndSplineSet
-Validated: 19457
-EndChar
-
 StartChar: onealt
-Encoding: 127 -1 91
+Encoding: 127 -1 90
 Width: 378
 VWidth: 1000
 Flags: W
@@ -15494,11 +15413,43 @@ Validated: 19457
 EndChar
 
 StartChar: space
-Encoding: 32 32 92
+Encoding: 32 32 91
 Width: 333
 VWidth: 1000
 Flags: W
 LayerCount: 2
+EndChar
+
+StartChar: quotedbl
+Encoding: 34 34 92
+Width: 215
+VWidth: 1000
+Flags: W
+HStem: 427 273
+VStem: 4 77<558.465 697.312> 123 78<554.678 694.444>
+LayerCount: 2
+Fore
+SplineSet
+9 583 m 2,0,1
+ 4 623 4 623 4 657 c 0,2,3
+ 4 700 4 700 43 700 c 0,4,5
+ 56 700 56 700 68.5 694 c 128,-1,6
+ 81 688 81 688 81 675 c 2,7,-1
+ 81 623 l 1,8,-1
+ 81 622 l 1,9,-1
+ 59 427 l 1,10,-1
+ 30 427 l 1,11,-1
+ 9 583 l 2,0,1
+128 624 m 1,12,13
+ 123 659 123 659 123 668 c 0,14,15
+ 123 697 123 697 167 697 c 0,16,17
+ 178 697 178 697 189.5 691 c 128,-1,18
+ 201 685 201 685 201 673 c 0,19,20
+ 201 641 201 641 200 626 c 2,21,-1
+ 181 427 l 1,22,-1
+ 151 427 l 1,23,-1
+ 128 624 l 1,12,13
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
