@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1344259757
-ModificationTime: 1356460584
+ModificationTime: 1411980188
 PfmFamily: 17
 TTFWeight: 200
 TTFWidth: 5
@@ -782,7 +782,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 460 46 18
+WinInfo: 0 46 18
 BeginPrivate: 9
 BlueValues 33 [ -22 0 431 442 453 466 683 705 ]
 OtherBlues 13 [ -205 -194 ]
@@ -794,7 +794,7 @@ StdVW 6 [ 72 ]
 ForceBold 5 false
 StemSnapH 9 [ 25 31 ]
 EndPrivate
-BeginChars: 1256 108
+BeginChars: 1256 109
 
 StartChar: A
 Encoding: 65 65 0
@@ -25388,6 +25388,61 @@ SplineSet
  332 256 332 256 336.5 253 c 128,-1,37
  341 250 341 250 341 243 c 0,38,39
  341 226 341 226 308 226 c 2,0,-1
+EndSplineSet
+EndChar
+
+StartChar: setascender
+Encoding: 31 31 108
+Width: 155
+Flags: W
+VStem: 48 59<-257.152 809.748>
+TtInstrs:
+SVTCA[y-axis]
+SVTCA[x-axis]
+PUSHB_1
+ 13
+MDAP[rnd]
+PUSHB_1
+ 8
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 2
+ 7
+ 0
+ 49
+ 4
+CALL
+PUSHB_1
+ 0
+SHP[rp2]
+PUSHB_5
+ 2
+ 7
+ 0
+ 49
+ 4
+CALL
+PUSHB_2
+ 14
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+107 787 m 10,0,1
+ 107 -229 l 2,2,3
+ 107 -236 107 -236 95 -248 c 128,-1,4
+ 83 -260 83 -260 80 -260 c 0,5,6
+ 66 -260 66 -260 57 -251 c 128,-1,7
+ 48 -242 48 -242 48 -234 c 2,8,-1
+ 48 803 l 1,9,10
+ 57 819 57 819 72 818.5 c 128,-1,11
+ 87 818 87 818 97 810 c 128,-1,12
+ 107 802 107 802 107 787 c 10,0,1
 EndSplineSet
 EndChar
 EndChars

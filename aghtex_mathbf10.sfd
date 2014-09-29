@@ -787,7 +787,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 33 16
+WinInfo: 7755 33 16
 BeginPrivate: 10
 BlueValues 17 [ -24 0 683 705 ]
 OtherBlues 13 [ -143 -131 ]
@@ -9759,7 +9759,7 @@ StartChar: y
 Encoding: 121 121 50
 Width: 527
 VWidth: 1000
-Flags: WO
+Flags: W
 HStem: -205 46<113 165.321> 392 57<17 81 208 262 330 381.773 445.096 510>
 VStem: 14 125<-155.892 -63.0492>
 TtInstrs:
@@ -15463,8 +15463,8 @@ EndSplineSet
 Validated: 19457
 EndChar
 
-StartChar: NameMe.8216
-Encoding: 8216 -1 88
+StartChar: lquote
+Encoding: 8216 8216 88
 Width: 277
 VWidth: 1000
 Flags: W
@@ -15554,8 +15554,8 @@ EndSplineSet
 Validated: 19457
 EndChar
 
-StartChar: NameMe.8217
-Encoding: 8217 -1 89
+StartChar: rquote
+Encoding: 8217 8217 89
 Width: 277
 VWidth: 1000
 Flags: W
@@ -15636,8 +15636,8 @@ EndSplineSet
 Validated: 19457
 EndChar
 
-StartChar: NameMe.8220
-Encoding: 8220 -1 90
+StartChar: ldquote
+Encoding: 8220 8220 90
 Width: 544
 VWidth: 1000
 Flags: W
@@ -15763,8 +15763,8 @@ EndSplineSet
 Validated: 19457
 EndChar
 
-StartChar: NameMe.8221
-Encoding: 8221 -1 91
+StartChar: rdquote
+Encoding: 8221 8221 91
 Width: 544
 VWidth: 1000
 Flags: W
