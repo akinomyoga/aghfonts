@@ -1,0 +1,433 @@
+// -*- mode:js;coding:sjis -*-
+// KeyboardMacro for UWCS.exe
+
+public progname="glyphinfo"
+
+public char2vk[256]
+char2vk[$30]=VK_0; char2vk[$31]=VK_1; char2vk[$32]=VK_2; char2vk[$33]=VK_3; char2vk[$34]=VK_4; 
+char2vk[$35]=VK_5; char2vk[$36]=VK_6; char2vk[$37]=VK_7; char2vk[$38]=VK_8; char2vk[$39]=VK_9; 
+char2vk[$61]=VK_A; char2vk[$62]=VK_B; char2vk[$63]=VK_C; char2vk[$64]=VK_D; char2vk[$65]=VK_E;
+char2vk[$66]=VK_F; char2vk[$67]=VK_G; char2vk[$68]=VK_H; char2vk[$69]=VK_I; char2vk[$6a]=VK_J; 
+char2vk[$6b]=VK_K; char2vk[$6c]=VK_L; char2vk[$6d]=VK_M; char2vk[$6e]=VK_N; char2vk[$6f]=VK_O; 
+char2vk[$70]=VK_P; char2vk[$71]=VK_Q; char2vk[$72]=VK_R; char2vk[$73]=VK_S; char2vk[$74]=VK_T; 
+char2vk[$75]=VK_U; char2vk[$76]=VK_V; char2vk[$77]=VK_W; char2vk[$78]=VK_X; char2vk[$79]=VK_Y; 
+char2vk[$7a]=VK_Z;
+
+public flog
+LogOpen()
+
+hWnd = GETID(" に関する情報","cygwin/x X rl")
+if hWnd = -1 then
+  msgbox(progname+": target window not found!")
+  exitexit
+endif
+
+// ウィンドウ選択
+windowX = STATUS(hWnd,ST_X)
+windowY = STATUS(hWnd,ST_Y)
+BTN(LEFT,CLICK,windowX+100,windowY+50,300)
+
+//-----------------------------------------------------------------------------
+
+// FontForge_SetGlyphInfoAndNext($28,"lparenbig")
+// FontForge_SetGlyphInfoAndNext($29,"rparenbig")
+// KbdWithAltN(VK_N,5)
+// FontForge_SetGlyphInfoAndNext($2f,"slashbig")
+// KbdWithAltN(VK_N,$2b)
+// FontForge_SetGlyphInfoAndNext($5b,"lbracketbig")
+// FontForge_SetGlyphInfoAndNext($5c,"backslashbig")
+// FontForge_SetGlyphInfoAndNext($5d,"rbracketbig")
+// KbdWithAltN(VK_N,$1d)
+// FontForge_SetGlyphInfoAndNext($7b,"lbracebig")
+// KbdWithAltN(VK_N,1)
+// FontForge_SetGlyphInfoAndNext($7d,"rbracebig")
+
+// FontForge_SetGlyphInfoAndNext($2308,"lceilbig")
+// FontForge_SetGlyphInfoAndNext($2309,"rceilbig")
+// FontForge_SetGlyphInfoAndNext($230a,"lfloorbig")
+// FontForge_SetGlyphInfoAndNext($230b,"rfloorbig")
+
+// FontForge_SetGlyphInfoAndNext($3008,"langlebig")
+// FontForge_SetGlyphInfoAndNext($3009,"ranglebig")
+
+//-----------------------------------------------------------------------------
+
+// FontForge_SetGlyphInfoAndNext($41,"A")
+// FontForge_SetGlyphInfoAndNext($42,"B")
+// FontForge_SetGlyphInfoAndNext($43,"C")
+// FontForge_SetGlyphInfoAndNext($44,"D")
+// FontForge_SetGlyphInfoAndNext($45,"E")
+// FontForge_SetGlyphInfoAndNext($46,"F")
+// FontForge_SetGlyphInfoAndNext($47,"G")
+// FontForge_SetGlyphInfoAndNext($48,"H")
+// FontForge_SetGlyphInfoAndNext($49,"I")
+// FontForge_SetGlyphInfoAndNext($4a,"J")
+// FontForge_SetGlyphInfoAndNext($4b,"K")
+// FontForge_SetGlyphInfoAndNext($4c,"L")
+// FontForge_SetGlyphInfoAndNext($4d,"M")
+// FontForge_SetGlyphInfoAndNext($4e,"N")
+// FontForge_SetGlyphInfoAndNext($4f,"O")
+// FontForge_SetGlyphInfoAndNext($50,"P")
+// FontForge_SetGlyphInfoAndNext($51,"Q")
+// FontForge_SetGlyphInfoAndNext($52,"R")
+// FontForge_SetGlyphInfoAndNext($53,"S")
+// FontForge_SetGlyphInfoAndNext($54,"T")
+// FontForge_SetGlyphInfoAndNext($55,"U")
+// FontForge_SetGlyphInfoAndNext($56,"V")
+// FontForge_SetGlyphInfoAndNext($57,"W")
+// FontForge_SetGlyphInfoAndNext($58,"X")
+// FontForge_SetGlyphInfoAndNext($59,"Y")
+// FontForge_SetGlyphInfoAndNext($5a,"Z")
+
+// FontForge_SetGlyphInfoAndNext($61,"a")
+// FontForge_SetGlyphInfoAndNext($62,"b")
+// FontForge_SetGlyphInfoAndNext($63,"c")
+// FontForge_SetGlyphInfoAndNext($64,"d")
+// FontForge_SetGlyphInfoAndNext($65,"e")
+// FontForge_SetGlyphInfoAndNext($66,"f")
+// FontForge_SetGlyphInfoAndNext($67,"g")
+// FontForge_SetGlyphInfoAndNext($68,"h")
+// FontForge_SetGlyphInfoAndNext($69,"i")
+// FontForge_SetGlyphInfoAndNext($6a,"j")
+// FontForge_SetGlyphInfoAndNext($6b,"k")
+// FontForge_SetGlyphInfoAndNext($6c,"l")
+// FontForge_SetGlyphInfoAndNext($6d,"m")
+// FontForge_SetGlyphInfoAndNext($6e,"n")
+// FontForge_SetGlyphInfoAndNext($6f,"o")
+// FontForge_SetGlyphInfoAndNext($70,"p")
+// FontForge_SetGlyphInfoAndNext($71,"q")
+// FontForge_SetGlyphInfoAndNext($72,"r")
+// FontForge_SetGlyphInfoAndNext($73,"s")
+// FontForge_SetGlyphInfoAndNext($74,"t")
+// FontForge_SetGlyphInfoAndNext($75,"u")
+// FontForge_SetGlyphInfoAndNext($76,"v")
+// FontForge_SetGlyphInfoAndNext($77,"w")
+// FontForge_SetGlyphInfoAndNext($78,"x")
+// FontForge_SetGlyphInfoAndNext($79,"y")
+// FontForge_SetGlyphInfoAndNext($7a,"z")
+
+// FontForge_SetGlyphInfoAndNext($21,"exclamation")
+// FontForge_SetGlyphInfoAndNext($22,"dquote")
+// FontForge_SetGlyphInfoAndNext($23,"number")
+// FontForge_SetGlyphInfoAndNext($24,"dollar")
+// FontForge_SetGlyphInfoAndNext($25,"percent")
+// FontForge_SetGlyphInfoAndNext($26,"ampersand")
+// FontForge_SetGlyphInfoAndNext($27,"quote")
+// FontForge_SetGlyphInfoAndNext($28,"lparen")
+// FontForge_SetGlyphInfoAndNext($29,"rparen")
+// FontForge_SetGlyphInfoAndNext($2a,"asterisk")
+// FontForge_SetGlyphInfoAndNext($2b,"plus")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($2d,"hyphen")
+
+FontForge_SetGlyphInfoAndNext($2018,"lquote")
+FontForge_SetGlyphInfoAndNext($2019,"rquote")
+KbdWithAlt(VK_N)
+KbdWithAlt(VK_N)
+FontForge_SetGlyphInfoAndNext($201c,"ldquote")
+FontForge_SetGlyphInfoAndNext($201d,"rdquote")
+
+// FontForge_SetGlyphInfoAndNext($30,"digit0")
+// FontForge_SetGlyphInfoAndNext($31,"digit1")
+// FontForge_SetGlyphInfoAndNext($32,"digit2")
+// FontForge_SetGlyphInfoAndNext($33,"digit3")
+// FontForge_SetGlyphInfoAndNext($34,"digit4")
+// FontForge_SetGlyphInfoAndNext($35,"digit5")
+// FontForge_SetGlyphInfoAndNext($36,"digit6")
+// FontForge_SetGlyphInfoAndNext($37,"digit7")
+// FontForge_SetGlyphInfoAndNext($38,"digit8")
+// FontForge_SetGlyphInfoAndNext($39,"digit9")
+// KbdWithAlt(VK_N)
+// KbdWithAlt(VK_N)
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($3d,"equal")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($3f,"question")
+
+//-----------------------------------------------------------------------------
+// 2014-09-29 aghtex_mathbf
+
+// FontForge_SetGlyphInfoAndNext($20,"space")
+// FontForge_SetGlyphInfoAndNext($21,"exclamation")
+// FontForge_SetGlyphInfoAndNext($22,"dquote")
+// FontForge_SetGlyphInfoAndNext($23,"number")
+// FontForge_SetGlyphInfoAndNext($24,"dollar")
+// FontForge_SetGlyphInfoAndNext($25,"percent")
+// FontForge_SetGlyphInfoAndNext($26,"ampersand")
+// FontForge_SetGlyphInfoAndNext($27,"quote")
+// FontForge_SetGlyphInfoAndNext($28,"lparen")
+// FontForge_SetGlyphInfoAndNext($29,"rparen")
+// FontForge_SetGlyphInfoAndNext($2a,"asterisk")
+// FontForge_SetGlyphInfoAndNext($2b,"plus")
+// FontForge_SetGlyphInfoAndNext($2c,"comma")
+// FontForge_SetGlyphInfoAndNext($2d,"hyphen")
+// FontForge_SetGlyphInfoAndNext($2e,"period")
+// FontForge_SetGlyphInfoAndNext($2f,"slash")
+// FontForge_SetGlyphInfoAndNext($30,"digit0")
+// FontForge_SetGlyphInfoAndNext($31,"digit1")
+// FontForge_SetGlyphInfoAndNext($32,"digit2")
+// FontForge_SetGlyphInfoAndNext($33,"digit3")
+// FontForge_SetGlyphInfoAndNext($34,"digit4")
+// FontForge_SetGlyphInfoAndNext($35,"digit5")
+// FontForge_SetGlyphInfoAndNext($36,"digit6")
+// FontForge_SetGlyphInfoAndNext($37,"digit7")
+// FontForge_SetGlyphInfoAndNext($38,"digit8")
+// FontForge_SetGlyphInfoAndNext($39,"digit9")
+// FontForge_SetGlyphInfoAndNext($3a,"colon")
+// FontForge_SetGlyphInfoAndNext($3b,"semicolon")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($3d,"equal")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($3f,"question")
+// FontForge_SetGlyphInfoAndNext($40,"atmark")
+// FontForge_SetGlyphInfoAndNext($41,"A")
+// FontForge_SetGlyphInfoAndNext($42,"B")
+// FontForge_SetGlyphInfoAndNext($43,"C")
+// FontForge_SetGlyphInfoAndNext($44,"D")
+// FontForge_SetGlyphInfoAndNext($45,"E")
+// FontForge_SetGlyphInfoAndNext($46,"F")
+// FontForge_SetGlyphInfoAndNext($47,"G")
+// FontForge_SetGlyphInfoAndNext($48,"H")
+// FontForge_SetGlyphInfoAndNext($49,"I")
+// FontForge_SetGlyphInfoAndNext($4a,"J")
+// FontForge_SetGlyphInfoAndNext($4b,"K")
+// FontForge_SetGlyphInfoAndNext($4c,"L")
+// FontForge_SetGlyphInfoAndNext($4d,"M")
+// FontForge_SetGlyphInfoAndNext($4e,"N")
+// FontForge_SetGlyphInfoAndNext($4f,"O")
+// FontForge_SetGlyphInfoAndNext($50,"P")
+// FontForge_SetGlyphInfoAndNext($51,"Q")
+// FontForge_SetGlyphInfoAndNext($52,"R")
+// FontForge_SetGlyphInfoAndNext($53,"S")
+// FontForge_SetGlyphInfoAndNext($54,"T")
+// FontForge_SetGlyphInfoAndNext($55,"U")
+// FontForge_SetGlyphInfoAndNext($56,"V")
+// FontForge_SetGlyphInfoAndNext($57,"W")
+// FontForge_SetGlyphInfoAndNext($58,"X")
+// FontForge_SetGlyphInfoAndNext($59,"Y")
+// FontForge_SetGlyphInfoAndNext($5a,"Z")
+// FontForge_SetGlyphInfoAndNext($5b,"lbracket")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($5d,"rbracket")
+// FontForge_SetGlyphInfoAndNext($5e,"hat")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($60,"bquotet")
+// FontForge_SetGlyphInfoAndNext($61,"a")
+// FontForge_SetGlyphInfoAndNext($62,"b")
+// FontForge_SetGlyphInfoAndNext($63,"c")
+// FontForge_SetGlyphInfoAndNext($64,"d")
+// FontForge_SetGlyphInfoAndNext($65,"e")
+// FontForge_SetGlyphInfoAndNext($66,"f")
+// FontForge_SetGlyphInfoAndNext($67,"g")
+// FontForge_SetGlyphInfoAndNext($68,"h")
+// FontForge_SetGlyphInfoAndNext($69,"i")
+// FontForge_SetGlyphInfoAndNext($6a,"j")
+// FontForge_SetGlyphInfoAndNext($6b,"k")
+// FontForge_SetGlyphInfoAndNext($6c,"l")
+// FontForge_SetGlyphInfoAndNext($6d,"m")
+// FontForge_SetGlyphInfoAndNext($6e,"n")
+// FontForge_SetGlyphInfoAndNext($6f,"o")
+// FontForge_SetGlyphInfoAndNext($70,"p")
+// FontForge_SetGlyphInfoAndNext($71,"q")
+// FontForge_SetGlyphInfoAndNext($72,"r")
+// FontForge_SetGlyphInfoAndNext($73,"s")
+// FontForge_SetGlyphInfoAndNext($74,"t")
+// FontForge_SetGlyphInfoAndNext($75,"u")
+// FontForge_SetGlyphInfoAndNext($76,"v")
+// FontForge_SetGlyphInfoAndNext($77,"w")
+// FontForge_SetGlyphInfoAndNext($78,"x")
+// FontForge_SetGlyphInfoAndNext($79,"y")
+// FontForge_SetGlyphInfoAndNext($7a,"z")
+
+// FontForge_SetGlyphInfoAndNext($2c6,"accenthat")
+// FontForge_SetGlyphInfoAndNext($2c7,"accentcheck")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($2c9,"accentbar")
+// FontForge_SetGlyphInfoAndNext($2ca,"accentacute")
+// FontForge_SetGlyphInfoAndNext($2cb,"accentgrave")
+// KbdWithAltN(VK_N,12)
+// FontForge_SetGlyphInfoAndNext($2d8,"accentbreve")
+// FontForge_SetGlyphInfoAndNext($2d9,"accentdot")
+// FontForge_SetGlyphInfoAndNext($2da,"accentring")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($2dc,"accenttilde")
+// FontForge_SetGlyphInfoAndNext($2dd,"accentdacute")
+// KbdWithAltN(VK_N,34)
+// FontForge_SetGlyphInfoAndNext($300,"combininggrave")
+// FontForge_SetGlyphInfoAndNext($301,"combiningacute")
+// FontForge_SetGlyphInfoAndNext($302,"combininghat")
+// FontForge_SetGlyphInfoAndNext($303,"combiningtilde")
+// FontForge_SetGlyphInfoAndNext($304,"combiningbar")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($306,"combiningbreve")
+// FontForge_SetGlyphInfoAndNext($307,"combiningdot")
+// FontForge_SetGlyphInfoAndNext($308,"combiningddot")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($30a,"combiningring")
+// FontForge_SetGlyphInfoAndNext($30b,"combiningdacute")
+// FontForge_SetGlyphInfoAndNext($30c,"combiningcheck")
+
+// FontForge_SetGlyphInfoAndNext($391,"Alpha")
+// FontForge_SetGlyphInfoAndNext($392,"Beta")
+// FontForge_SetGlyphInfoAndNext($393,"Gamma")
+// FontForge_SetGlyphInfoAndNext($394,"Delta")
+// FontForge_SetGlyphInfoAndNext($395,"Epsilon")
+// FontForge_SetGlyphInfoAndNext($396,"Zeta")
+// FontForge_SetGlyphInfoAndNext($397,"Eta")
+// FontForge_SetGlyphInfoAndNext($398,"Theta")
+// FontForge_SetGlyphInfoAndNext($399,"Iota")
+// FontForge_SetGlyphInfoAndNext($39a,"Kappa")
+// FontForge_SetGlyphInfoAndNext($39b,"Lambda")
+// FontForge_SetGlyphInfoAndNext($39c,"Mu")
+// FontForge_SetGlyphInfoAndNext($39d,"Nu")
+// FontForge_SetGlyphInfoAndNext($39e,"Xi")
+// FontForge_SetGlyphInfoAndNext($39f,"Omicron")
+// FontForge_SetGlyphInfoAndNext($3a0,"Pi")
+// FontForge_SetGlyphInfoAndNext($3a1,"Rho")
+// KbdWithAlt(VK_N)
+// FontForge_SetGlyphInfoAndNext($3a3,"Sigma")
+// FontForge_SetGlyphInfoAndNext($3a4,"Tau")
+// FontForge_SetGlyphInfoAndNext($3a5,"YUpsilon")
+// FontForge_SetGlyphInfoAndNext($3a6,"Phi")
+// FontForge_SetGlyphInfoAndNext($3a7,"Chi")
+// FontForge_SetGlyphInfoAndNext($3a8,"Psi")
+// FontForge_SetGlyphInfoAndNext($3a9,"Omega")
+
+//Upsilon
+
+LogClose()
+
+// SSE_DEFAULT = 0
+// SSM_APPEND  = TRUE
+// SSM_REPLACE = FALSE
+// SSM_CHARSEQ = 2
+// SENDSTR(hWnd,"Hello",SSE_DEFAULT,SSM_CHARSEQ)
+
+//-----------------------------------------------------------------------------
+
+procedure FontForge_SetGlyphInfoAndNext(unicode,glyphname)
+  sleep(0.5)
+  KbdWithAlt(VK_V)
+  MyInputHex(unicode)
+
+  KbdWithShift(VK_TAB)
+  MyInputStr(glyphname)
+
+  KbdWithAlt(VK_N)
+fend
+
+//-----------------------------------------------------------------------------
+
+procedure KbdWithAltN(vk,n)
+  for i = 1 to n
+    KbdWithAlt(vk)
+  next
+fend
+
+procedure KbdWithShiftN(vk,n)
+  for i = 1 to n
+    KbdWithShift(vk)
+  next
+fend
+
+procedure KbdWithShift(vk)
+  kbd(VK_SHIFT,DOWN,40)
+  kbd(vk,CLICK,40)
+  kbd(VK_SHIFT,UP,40)
+fend
+
+procedure KbdWithAlt(vk)
+  kbd(VK_ALT,DOWN,40)
+  kbd(vk,CLICK,40)
+  kbd(VK_ALT,UP,40)
+fend
+
+procedure MyInputHex(value)
+  // 0 の場合
+  if value = 0
+    kbd(VK_0,CLICK,40)
+    exit
+  endif
+
+  dim digits[8]
+  index=0
+  while value >= 1 and index < 8
+    digits[index] = value mod 16
+    index = index + 1
+    value = int( value / 16 )
+    LogPut("value="+value)
+  wend
+
+  LogPut("index="+index)
+
+  for i = index - 1 to 0 step -1
+    LogPut("xdigit="+digits[i])
+    select digits[i]
+      case 0
+        kbd(VK_0,CLICK,40)
+      case 1
+        kbd(VK_1,CLICK,40)
+      case 2
+        kbd(VK_2,CLICK,40)
+      case 3
+        kbd(VK_3,CLICK,40)
+      case 4
+        kbd(VK_4,CLICK,40)
+      case 5
+        kbd(VK_5,CLICK,40)
+      case 6
+        kbd(VK_6,CLICK,40)
+      case 7
+        kbd(VK_7,CLICK,40)
+      case 8
+        kbd(VK_8,CLICK,40)
+      case 9
+        kbd(VK_9,CLICK,40)
+      case 10
+        kbd(VK_A,CLICK,40)
+      case 11
+        kbd(VK_B,CLICK,40)
+      case 12
+        kbd(VK_C,CLICK,40)
+      case 13
+        kbd(VK_D,CLICK,40)
+      case 14
+        kbd(VK_E,CLICK,40)
+      case 15
+        kbd(VK_F,CLICK,40)
+    selend
+  next
+fend
+
+procedure MyInputStr(text)
+  // LogPut("MyInputStr called")
+  len = length(text)
+  for i = 1 to len
+    // LogPut("i="+i+" len="+len)
+    ch = asc(copy(text,i,1))
+    if ( $30 <= ch and ch <= $39 ) or ( $61 <= ch and ch <= $7a )
+      // 数字・英小文字
+      kbd(char2vk[ch],CLICK,40)
+    elseif $41 <= ch and ch <= $5a
+      // 英大文字
+      KbdWithShift(char2vk[ch+$20])
+    endif
+  next
+fend
+
+procedure LogOpen()
+  flog = FOPEN("uwsc/"+progname+".log", F_WRITE or F_READ)
+  FPUT(flog,"---- log ----")
+  // FPUT(fid,"windowY="+windowX)
+  // FPUT(fid,"windowY="+windowX)
+  // MSGBOX("windowX="+windowX)
+fend
+
+procedure LogPut(text)
+  FPUT(flog,text)
+fend
+
+procedure LogClose()
+  FCLOSE(flog)
+  flog = -1
+fend

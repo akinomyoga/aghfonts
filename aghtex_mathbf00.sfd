@@ -1,8 +1,8 @@
 SplineFontDB: 3.0
-FontName: aghtex_mathbf
-FullName: aghtex_mathbf
-FamilyName: aghtex_mathbf
-Weight: Book
+FontName: aghtex_mathbf_light
+FullName: aghtex_mathbf_light
+FamilyName: aghtex_mathbf_light
+Weight: Light
 Copyright: Copyright (C) 2014 KM, 1997, 2009 American Mathematical Society (<http://www.ams.org>), with Reserved Font Name CMB10.
 Version: 3.2.0.1
 ItalicAngle: 0
@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1344259763
-ModificationTime: 1411970820
+ModificationTime: 1411970889
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -787,7 +787,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 33 16
+WinInfo: 33 33 16
 BeginPrivate: 10
 BlueValues 17 [ -24 0 683 705 ]
 OtherBlues 13 [ -143 -131 ]
