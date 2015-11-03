@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1344259757
-ModificationTime: 1446578604
+ModificationTime: 1446578624
 PfmFamily: 17
 TTFWeight: 200
 TTFWidth: 5
@@ -13299,7 +13299,7 @@ EndChar
 StartChar: z
 Encoding: 122 122 51
 Width: 465
-Flags: HWO
+Flags: HW
 HStem: -11 67<228.456 348.263> 64 22<133.735 187.35> 345 22<336.046 374.828> 375 67<184.804 295.596>
 VStem: 125 25<317.011 348.487>
 TtInstrs:
@@ -13489,6 +13489,7 @@ SplineSet
  252 197 l 2,71,72
  187 141 187 141 133 83 c 1,0,1
 EndSplineSet
+Validated: 19457
 EndChar
 
 StartChar: space
@@ -20887,7 +20888,7 @@ EndChar
 StartChar: kappa
 Encoding: 954 954 86
 Width: 592
-Flags: W
+Flags: HWO
 HStem: -11 25<422.086 477.996> 341 90<441.799 512.75> 422 20G<176 199.5>
 VStem: 55 67<-1.71826 61.8333> 347 67<23.9198 144.656> 354 72<90.4385 190.163> 432 93<353.038 395.938> 538 24<114.288 154.973>
 TtInstrs:
@@ -21081,7 +21082,7 @@ SplineSet
  493 341 493 341 470 341 c 0,15,16
  451 341 451 341 441.5 352 c 128,-1,17
  432 363 432 363 432 377 c 0,18,19
- 432 380 432 380 433 384.5 c 0,20,21
+ 432 380 432 380 433 384 c 128,-1,21
  434 388 434 388 435 392 c 2,22,-1
  436 396 l 1,23,24
  398 380 398 380 326 323 c 1,25,26
@@ -21117,7 +21118,7 @@ SplineSet
  206 442 206 442 215 433.5 c 128,-1,77
  224 425 224 425 224 413 c 1,0,-1
 EndSplineSet
-Validated: 543745
+Validated: 19457
 EndChar
 
 StartChar: lambda
