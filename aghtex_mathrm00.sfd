@@ -97,73 +97,13 @@ PUSHB_1
 EIF
 SCVTCI
 PUSHB_1
- 0
-DUP
-RCVT
-PUSHB_3
- 1
- 2
- 2
-CALL
-WCVTP
-PUSHB_1
- 2
-DUP
-RCVT
-PUSHW_3
- 3
- -32768
- 2
-CALL
-WCVTP
-PUSHB_1
- 4
-DUP
-RCVT
-PUSHB_3
- 5
- 1
- 2
-CALL
-WCVTP
-PUSHB_1
- 6
-DUP
-RCVT
-PUSHB_3
- 7
- 1
- 2
-CALL
-WCVTP
-PUSHB_1
- 8
-DUP
-RCVT
-PUSHB_3
- 9
- 1
- 2
-CALL
-WCVTP
-PUSHB_1
- 10
-DUP
-RCVT
-PUSHB_3
- 11
- 1
- 2
-CALL
-WCVTP
-PUSHB_1
  6
 CALL
 NOT
 IF
 SVTCA[y-axis]
 PUSHB_1
- 12
+ 6
 DUP
 RCVT
 PUSHB_1
@@ -171,11 +111,11 @@ PUSHB_1
 CALL
 WCVTP
 PUSHB_1
- 13
+ 7
 DUP
 RCVT
 PUSHB_3
- 12
+ 6
  58
  2
 CALL
@@ -184,11 +124,11 @@ PUSHB_1
 CALL
 WCVTP
 PUSHB_1
- 14
+ 8
 DUP
 RCVT
 PUSHB_3
- 12
+ 6
  34
  2
 CALL
@@ -198,7 +138,7 @@ CALL
 WCVTP
 SVTCA[x-axis]
 PUSHB_1
- 15
+ 9
 DUP
 RCVT
 PUSHB_1
@@ -206,11 +146,11 @@ PUSHB_1
 CALL
 WCVTP
 PUSHB_1
- 16
+ 10
 DUP
 RCVT
 PUSHB_3
- 15
+ 9
  58
  2
 CALL
@@ -221,11 +161,11 @@ SROUND
 CALL
 WCVTP
 PUSHB_1
- 17
+ 11
 DUP
 RCVT
 PUSHB_3
- 15
+ 9
  24
  2
 CALL
@@ -853,27 +793,35 @@ MUL
 SWAP
 ENDF
 EndTTInstrs
-ShortTable: cvt  18
+ShortTable: cvt  26
   -199
   0
-  0
-  0
   317
-  0
   539
-  0
   659
-  0
   711
-  0
   44
   33
   61
   44
   33
   88
+  42
+  27
+  90
+  96
+  73
+  68
+  24
+  30
+  66
+  104
+  84
+  78
+  37
+  80
 EndShort
-GaspTable: 3 8 2 17 1 65535 3 0
+GaspTable: 3 8 2 17 1 65535 3
 Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -3088,7 +3036,7 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  10
- 15
+ 9
 MIRP[min,black]
 PUSHB_3
  16
@@ -9744,7 +9692,7 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  15
- 15
+ 9
 MIRP[min,black]
 PUSHB_3
  15
@@ -86564,14 +86512,14 @@ PUSHB_1
 MDAP[rnd]
 PUSHB_5
  7
- 14
+ 8
  0
  19
  4
 CALL
 PUSHB_5
  7
- 14
+ 8
  0
  19
  4
@@ -86585,14 +86533,14 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  1
- 17
+ 11
  0
  19
  4
 CALL
 PUSHB_5
  1
- 17
+ 11
  0
  19
  4
