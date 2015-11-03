@@ -29418,7 +29418,7 @@ StartChar: hat
 Encoding: 94 94 139
 Width: 511
 VWidth: 1000
-Flags: WO
+Flags: W
 HStem: 526 178
 VStem: 256 276<545 558>
 TtInstrs:
