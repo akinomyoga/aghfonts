@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 878738956
-ModificationTime: 1446585924
+ModificationTime: 1446585938
 PfmFamily: 17
 TTFWeight: 300
 TTFWidth: 5
@@ -19158,8 +19158,90 @@ Encoding: 9675 9675 78
 Width: 1027
 VWidth: 1000
 Flags: W
-HStem: -216 43<400 626.5 400 638> 673 43<400.5 627>
-VStem: 57 43<133.5 367.5 133.5 378.5> 927 43<132.5 366.5>
+HStem: -221 53<379.341 647.464> 668 53<379.462 647.339>
+VStem: 52 53<112.392 387.608> 922 53<112.392 387.485>
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 17
+ 4
+ 0
+CALL
+PUSHB_5
+ 8
+ 8
+ 0
+ 76
+ 4
+CALL
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_5
+ 12
+ 8
+ 0
+ 76
+ 4
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 22
+MDAP[rnd]
+PUSHB_1
+ 6
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 20
+ 9
+ 0
+ 78
+ 4
+CALL
+PUSHB_1
+ 20
+SRP0
+PUSHB_2
+ 15
+ 1
+CALL
+PUSHB_5
+ 0
+ 9
+ 0
+ 78
+ 4
+CALL
+PUSHB_2
+ 23
+ 1
+CALL
+PUSHB_2
+ 15
+ 20
+SRP1
+SRP2
+PUSHB_2
+ 8
+ 3
+IP
+IP
+SVTCA[y-axis]
+PUSHB_2
+ 17
+ 12
+SRP1
+SRP2
+PUSHB_3
+ 5
+ 6
+ 0
+IP
+IP
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
