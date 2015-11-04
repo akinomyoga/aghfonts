@@ -1,0 +1,16 @@
+
+# backup files
+/backup
+*~
+
+# generated files
+/*.ttf
+/uwsc/glyphinfo.log
+/uwsc/a.exe
+/uwsc/a.out
+
+# materials
+/*.lnk
+/mat
+/amsfonts
+/original
