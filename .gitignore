@@ -4,7 +4,7 @@
 *~
 
 # generated files
-/*.ttf
+# *.ttf
 /uwsc/glyphinfo.log
 /uwsc/a.exe
 /uwsc/a.out
