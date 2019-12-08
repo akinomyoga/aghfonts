@@ -1,0 +1,72 @@
+
+
+
+aghtex_mathsymb  roman
+aghtex_mathsyma  roman
+aghtex_mathbb    roman
+aghtex_mathfrak  roman
+aghtex_mathit    italic
+aghtex_mathcal   italic
+aghtex_mathbm    italic
+aghtex_mathscr   italic
+
+*******************************************************************************
+
+  AGHTEX_MATHSCR
+
+-------------------------------------------------------------------------------
+
+2013-11-05 Koichi Murase, aghtex_mathscr-1.2
+  * aghtex_mathscr.sfd: converted for use in aghtex
+
+1998-04-24 Taco Hoekwater, rsfs-1.1
+  * rsfs10.pfb
+
+1991-10-27 Ralph Smith, rsfs-1.0
+  * rsfs10.mf
+
+
+RSFS - Ralph Smith's Formal Script Symbol Fonts
+------------------------------------------------
+
+Version 1.0,  Released October 1991
+
+This package contains METAFONT sources for fonts of uppercase
+script letters for use as symbols in scientific and mathematical
+typesetting.  For example, script D, N, and S are often used in
+functional analysis for domain, nullspace, and Schwartz class.
+Script L and H are the standard symbols for lagrangian and
+hamiltonian densities in quantum field theory.  These formal
+script symbols may be contrasted with informal scripts such
+as the one designed by H. Zapf and used as `calligraphic'
+symbols in the TeX math symbol font.
+I have tried to be fairly conservative, and closely imitated
+a formal script type designed by R. Hunter Middleton.  This is
+similar to Typo Script and Marina, as well as the font used
+by the typesetters at Springer Verlag.  All are based on the
+so-called Spencerian or Copperplate hand lettering which
+prevailed in the eighteenth century.
+
+These programs were not designed with much `meta-ness' in mind.
+Although formal script is subject to many stylistic variations,
+radical changes in weight or slant violate my sense of taste.
+This is a first revision, and certainly does not reflect much
+expertise in METAFONT programming. It has been checked for
+legibility and spacing.
+
+I have tested these fonts on some 300dpi printers (ink-jet and laser),
+but not at other resolutions.  I suspect they won't look very good at
+low resolution (because of the instrinsic detail).  Comments from users
+of the fonts are welcome; please describe your printer and metafont
+parameters when relevant.  I will probably revise the sources and hope
+to add lowercase letters to make a text font.
+
+You are welcome to use and distribute these files; if you modify them,
+please change the name but give credit to the original author!
+
+      - Ralph Smith
+        Physics 0319
+        Univ. of California -- San Diego
+        9500 Gilman Drive, La Jolla CA 92093-0319
+        
+        E-mail: rasmith@ucsd.edu
