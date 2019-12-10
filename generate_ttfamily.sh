@@ -59,6 +59,9 @@ function generate-mf/setparam {
   eval "$1=\$_value"
 }
 function generate-mf {
+  local output=$1
+  [[ -s $output ]] && return
+
   # 以下の表の各列は以下のファイルを元にしている。
   #   amsfonts/cm/cmtt8.mf
   #   amsfonts/cm/cmtt9.mf
@@ -172,7 +175,7 @@ function generate-mf {
     base_driver=csc for_csc=
   fi
 
-  cat << EOF > "$1"
+  cat << EOF > "$output"
 % THIS IS UNOFFICIAL COMPUTER MODERN SOURCE FILE cmtt10.mf BY K MURASE.
 % IT MUST NOT BE MODIFIED IN ANY WAY UNLESS THE FILE NAME IS CHANGED!
 
@@ -297,6 +300,8 @@ EOF
 }
 
 function generate-ttf {
+  local input=$1 output=$2
+  [[ -s $output ]] && return
   # MFTRACE=mftrace
   # export MFTRACE_OPTIONS="--magnification=2400 --formats=ttf --autotrace --noround --grid 1000"
   # export MFTRACE_BACKEND_OPTIONS="-filter-iterations 100 -corner-threshold 120 -error-threshold 0.3 -line-reversion-threshold 0.1  -tangent-surround 15 -remove-adjacent-corners"
@@ -362,9 +367,9 @@ SetOS2Value("Weight", $os2weight)
 SelectWorthOutputting()
 CanonicalContours()
 CanonicalStart()
-ClearHints()
-AutoHint()
-AutoInstr()
+#ClearHints()
+#AutoHint()
+#AutoInstr()
 
 Generate("$output", "ttf", 0x200, -1)
 EOF
@@ -391,7 +396,7 @@ function generate {
   [[ -d out ]] || mkdir -p out
   [[ -d tmp ]] || mkdir -p tmp
   generate-mf "tmp/$key.mf"
-  generate-ttf "$key"
+  generate-ttf "$key" "tmp/$key.ttf"
   modify-ttf "tmp/$key.ttf" "out/$key.ttf"
 }
 
