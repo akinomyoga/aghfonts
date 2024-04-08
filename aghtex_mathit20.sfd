@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: aghtex_mathit
 FullName: aghtex_mathit
 FamilyName: aghtex_mathit
@@ -10,17 +10,17 @@ UnderlinePosition: -99
 UnderlineWidth: 49
 Ascent: 819
 Descent: 205
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 1 "+gMyXYgAA"  1
-Layer: 1 1 "+Uk2XYgAA"  0
-NeedsXUIDChange: 1
+Layer: 0 1 "+gMyXYgAA" 1
+Layer: 1 1 "+Uk2XYgAA" 0
 UniqueID: 5087385
 FSType: 8
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1344259757
-ModificationTime: 1446578891
+ModificationTime: 1712569349
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -780,14 +780,14 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 
+LangName: 1033
 Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 28 13
+WinInfo: 56 28 13
 BeginPrivate: 9
 BlueValues 31 [-22 0 431 442 453 466 683 705]
 OtherBlues 11 [-205 -194]
@@ -1602,7 +1602,7 @@ SplineSet
 385 612 m 2,42,-1
  248 62 l 2,43,44
  244 47 244 47 243 43 c 0,45,46
- 247 42 l 0,47,48
+ 243 43 243 43 247 42 c 0,47,48
  253 41 253 41 268 41 c 2,49,-1
  381 41 l 2,50,51
  459 41 459 41 516 76 c 0,52,53
@@ -1614,7 +1614,7 @@ SplineSet
  429 642 l 2,62,63
  404 642 404 642 396 639 c 2,64,-1
  395 638 l 2,65,66
- 394 637 l 0,67,68
+ 395 638 395 638 394 637 c 0,67,68
  390 632 390 632 385 612 c 2,42,-1
 EndSplineSet
 Validated: 19457
@@ -2137,7 +2137,7 @@ SplineSet
 251 74 m 2,0,1
  247 60 247 60 247 53 c 0,2,3
  247 48 247 48 248 47 c 0,4,5
- 249 47 l 1,6,7
+ 248 47 248 47 249 47 c 257,6,7
  250 47 250 47 250 46 c 0,8,9
  256 44 256 44 270 43 c 0,10,11
  293 41 293 41 321 41 c 0,12,13
@@ -2145,7 +2145,7 @@ SplineSet
  351 40 351 40 352 39 c 2,16,-1
  353 39 l 1,17,-1
  356 37 l 2,18,19
- 357 36 l 0,20,21
+ 356 37 356 37 357 36 c 0,20,21
  359 34 359 34 360 34 c 0,22,23
  362 32 362 32 362 31 c 0,24,25
  364 27 364 27 365 22 c 0,26,27
@@ -5095,7 +5095,7 @@ Fore
 SplineSet
 601 474 m 2,0,1
  598 460 598 460 595 455 c 0,2,3
- 594 454 l 0,4,5
+ 595 455 595 455 594 454 c 0,4,5
  588 449 588 449 585 447 c 0,6,7
  581 446 581 446 576 446 c 128,-1,8
  571 446 571 446 570 447 c 0,9,10
@@ -6412,7 +6412,7 @@ LayerCount: 2
 Fore
 SplineSet
 185 48 m 1,0,1
- 186 49 l 1,2,-1
+ 185 48 185 48 186 49 c 1,2,-1
  187 50 l 2,3,4
  193 56 193 56 203 93 c 2,5,-1
  228 189 l 2,6,7
@@ -6484,7 +6484,7 @@ SplineSet
  82 25 82 25 86 30 c 128,-1,119
  90 35 90 35 93 37 c 0,120,121
  99 41 99 41 118 41 c 0,122,123
- 135 41 l 0,124,125
+ 118 41 118 41 135 41 c 0,124,125
  142 41 142 41 149 41 c 0,126,127
  168 41 168 41 185 48 c 1,0,1
 EndSplineSet
@@ -6836,7 +6836,7 @@ SplineSet
  468 155 468 155 470.5 157.5 c 128,-1,26
  473 160 473 160 477 162 c 0,27,28
  481 163 481 163 486 163 c 0,29,30
- 492 162 l 0,31,32
+ 486 163 486 163 492 162 c 0,31,32
  508 159 508 159 508 143 c 0,33,34
  508 140 508 140 504.5 123 c 128,-1,35
  501 106 501 106 493 81 c 128,-1,36
@@ -9045,7 +9045,7 @@ SplineSet
  141 277 141 277 137.5 273.5 c 128,-1,21
  134 270 134 270 130 269 c 128,-1,22
  126 268 126 268 121 268 c 0,23,24
- 115 269 l 0,25,26
+ 121 268 121 268 115 269 c 0,25,26
  99 272 99 272 99 288 c 0,27,28
  99 295 99 295 110.5 319.5 c 128,-1,29
  122 344 122 344 141.5 374 c 128,-1,30
@@ -9517,7 +9517,7 @@ SplineSet
  204 110 204 110 204 137 c 0,8,9
  204 138 204 138 204 140 c 0,10,11
  205 144 205 144 206 146 c 0,12,13
- 208 150 l 2,14,-1
+ 206 146 206 146 208 150 c 2,14,-1
  208 152 l 2,15,16
  208 153 208 153 209 154 c 2,17,-1
  210 155 l 1,18,19
@@ -9540,7 +9540,7 @@ SplineSet
  111 642 111 642 102 648 c 0,47,48
  94 654 94 654 94 663 c 2,49,-1
  94 668 l 2,50,51
- 94 669 l 1,52,53
+ 94 668 94 668 94 669 c 1,52,53
  96 683 96 683 116 693 c 0,54,55
  118 694 118 694 122 694 c 0,56,57
  132 695 132 695 158 697 c 2,58,-1
@@ -9998,7 +9998,7 @@ SplineSet
  152 410 152 410 131 410 c 0,4,5
  94 410 94 410 68 299 c 0,6,7
  64 284 64 284 61 277 c 0,8,9
- 60 276 l 0,10,11
+ 61 277 61 277 60 276 c 0,10,11
  55 271 55 271 49 269 c 0,12,13
  45 268 45 268 41 268 c 0,14,15
  36 268 36 268 35 269 c 0,16,17
@@ -10378,7 +10378,7 @@ SplineSet
  152 410 152 410 131 410 c 0,4,5
  94 410 94 410 68 299 c 0,6,7
  64 284 64 284 61 277 c 0,8,9
- 60 276 l 0,10,11
+ 61 277 61 277 60 276 c 0,10,11
  55 271 55 271 49 269 c 0,12,13
  45 268 45 268 41 268 c 0,14,15
  36 268 36 268 35 269 c 0,16,17
@@ -10852,7 +10852,7 @@ SplineSet
  154 410 154 410 133 410 c 0,4,5
  96 410 96 410 70 299 c 0,6,7
  66 284 66 284 63 277 c 0,8,9
- 62 276 l 0,10,11
+ 63 277 63 277 62 276 c 0,10,11
  57 271 57 271 51 269 c 0,12,13
  47 268 47 268 43 268 c 0,14,15
  38 268 38 268 37 269 c 0,16,17
@@ -11385,7 +11385,7 @@ SplineSet
  152 410 152 410 131 410 c 0,4,5
  94 410 94 410 68 299 c 0,6,7
  64 284 64 284 61 277 c 0,8,9
- 60 276 l 0,10,11
+ 61 277 61 277 60 276 c 0,10,11
  55 271 55 271 49 269 c 0,12,13
  45 268 45 268 41 268 c 0,14,15
  36 268 36 268 35 269 c 0,16,17
@@ -12349,7 +12349,7 @@ SplineSet
  162 410 162 410 158 410 c 0,14,15
  101 410 101 410 67 293 c 0,16,17
  64 282 64 282 59 276 c 0,18,19
- 58 275 l 0,20,21
+ 59 276 59 276 58 275 c 0,20,21
  52 270 52 270 50 269 c 0,22,23
  46 268 46 268 41 268 c 128,-1,24
  36 268 36 268 35 269 c 0,25,26
@@ -12948,7 +12948,7 @@ SplineSet
  162 410 162 410 158 410 c 0,45,46
  101 410 101 410 67 293 c 0,47,48
  64 282 64 282 59 276 c 0,49,50
- 58 275 l 0,51,52
+ 59 276 59 276 58 275 c 0,51,52
  52 270 52 270 50 269 c 0,53,54
  46 268 46 268 41 268 c 128,-1,55
  36 268 36 268 35 269 c 0,56,57
@@ -13790,7 +13790,7 @@ SplineSet
  390 116 390 116 400 144 c 1,8,9
  407 158 407 158 415 161 c 0,10,11
  419 163 419 163 423 163 c 0,12,13
- 429 162 l 0,14,15
+ 423 163 423 163 429 162 c 0,14,15
  445 159 445 159 445 143 c 0,16,17
  445 107 445 107 396 43 c 128,-1,18
  347 -21 347 -21 278 -21 c 0,19,20
@@ -13800,7 +13800,7 @@ SplineSet
  117 54 117 54 80 -3 c 0,26,27
  75 -10 75 -10 74 -11 c 0,28,29
  66 -21 66 -21 55 -21 c 0,30,31
- 49 -20 l 0,32,33
+ 55 -21 55 -21 49 -20 c 0,32,33
  33 -17 33 -17 33 -1 c 0,34,35
  33 1 33 1 34 3 c 0,36,37
  36 10 36 10 46.5 27 c 128,-1,38
@@ -13839,16 +13839,8 @@ EndSplineSet
 Validated: 19457
 EndChar
 
-StartChar: space
-Encoding: 160 32 52
-Width: 332
-VWidth: 1000
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: Alpha
-Encoding: 913 913 53
+Encoding: 913 913 52
 Width: 770
 VWidth: 1000
 Flags: W
@@ -14095,7 +14087,7 @@ Validated: 19457
 EndChar
 
 StartChar: Beta
-Encoding: 914 914 54
+Encoding: 914 914 53
 Width: 777
 VWidth: 1000
 Flags: W
@@ -14316,7 +14308,7 @@ Validated: 19457
 EndChar
 
 StartChar: Gamma
-Encoding: 915 915 55
+Encoding: 915 915 54
 Width: 683
 VWidth: 1000
 Flags: W
@@ -14402,14 +14394,14 @@ Fore
 SplineSet
 244 72 m 2,0,1
  240 60 240 60 240 52 c 2,2,3
- 240 47 l 1,4,5
+ 240 52 240 52 240 47 c 1,4,5
  248 43 248 43 264 43 c 1,6,7
  287 41 287 41 315 41 c 0,8,9
  338 41 338 41 345 37 c 1,10,11
  353 34 353 34 355 24 c 0,12,13
  356 23 356 23 356 18 c 0,14,15
  354 -9 354 -9 328 -10 c 1,16,17
- 325 -10 l 2,18,19
+ 328 -10 328 -10 325 -10 c 2,18,19
  312 -10 312 -10 286 -9 c 128,-1,20
  260 -8 260 -8 249 -8 c 0,21,22
  236 -8 236 -8 211.5 -7.5 c 128,-1,23
@@ -14462,7 +14454,7 @@ Validated: 19457
 EndChar
 
 StartChar: Delta
-Encoding: 916 916 56
+Encoding: 916 916 55
 Width: 856
 VWidth: 1000
 Flags: W
@@ -14572,22 +14564,22 @@ SplineSet
  819 -3 819 -3 806 -8 c 1,7,8
  796 -10 796 -10 781 -10 c 2,9,-1
  74 -10 l 1,10,11
- 58 -10 l 1,12,13
+ 74 -10 74 -10 58 -10 c 1,12,13
  41 -8 41 -8 41 7 c 0,14,15
  41 12 41 12 43 15 c 1,16,17
  44 19 44 19 52 28 c 2,18,-1
  567 703 l 2,19,20
  585 726 585 726 606 726 c 2,21,22
- 612 726 l 1,23,24
+ 606 726 606 726 612 726 c 1,23,24
  631 725 631 725 636 707 c 2,25,26
- 640 695 l 1,27,-1
+ 636 707 636 707 640 695 c 1,27,-1
  816 28 l 2,3,4
 EndSplineSet
 Validated: 19457
 EndChar
 
 StartChar: Epsilon
-Encoding: 917 917 57
+Encoding: 917 917 56
 Width: 800
 VWidth: 1000
 Flags: W
@@ -14808,7 +14800,7 @@ Fore
 SplineSet
 256 61 m 1,0,1
  251 56 251 56 251 42 c 1,2,3
- 255 42 l 1,4,-1
+ 251 42 251 42 255 42 c 1,4,-1
  256 42 l 1,5,6
  258 41 258 41 274 41 c 2,7,-1
  427 41 l 2,8,9
@@ -14895,7 +14887,7 @@ Validated: 19457
 EndChar
 
 StartChar: Zeta
-Encoding: 918 918 58
+Encoding: 918 918 57
 Width: 758
 VWidth: 1000
 Flags: W
@@ -15026,7 +15018,7 @@ Validated: 19457
 EndChar
 
 StartChar: Eta
-Encoding: 919 919 59
+Encoding: 919 919 58
 Width: 867
 VWidth: 1000
 Flags: W
@@ -15230,7 +15222,7 @@ SplineSet
  681 41 681 41 703 41 c 0,7,8
  726 41 726 41 733 37 c 0,9,10
  742 33 742 33 743 24 c 1,11,12
- 744 22 l 2,13,14
+ 743 24 743 24 744 22 c 2,13,14
  744 20 744 20 744 18 c 0,15,16
  744 -10 744 -10 714 -10 c 0,17,18
  689 -10 689 -10 649 -8 c 0,19,20
@@ -15297,7 +15289,7 @@ SplineSet
  658 642 658 642 636 642 c 0,114,115
  616 642 616 642 608 645 c 0,116,117
  599 649 599 649 597 659 c 2,118,119
- 596 661 l 2,120,121
+ 597 659 597 659 596 661 c 2,120,121
  596 663 596 663 596 665 c 0,122,123
  596 693 596 693 625 693 c 2,124,-1
  626 693 l 2,125,126
@@ -15308,7 +15300,7 @@ SplineSet
  907 693 907 693 907 672 c 2,133,-1
  907 670 l 2,134,135
  907 643 907 643 880 642 c 1,136,137
- 870 642 l 2,138,139
+ 880 642 880 642 870 642 c 2,138,139
  818 642 818 642 807 636 c 128,-1,140
  796 630 796 630 790 604 c 2,141,-1
  656 70 l 2,0,1
@@ -15317,7 +15309,7 @@ Validated: 19457
 EndChar
 
 StartChar: Theta
-Encoding: 920 920 60
+Encoding: 920 920 59
 Width: 788
 VWidth: 1000
 Flags: W
@@ -15521,7 +15513,7 @@ Validated: 19457
 EndChar
 
 StartChar: Iota
-Encoding: 921 921 61
+Encoding: 921 921 60
 Width: 473
 VWidth: 1000
 Flags: W
@@ -15629,7 +15621,7 @@ SplineSet
  267 41 267 41 310 41 c 0,6,7
  330 41 330 41 338 38 c 0,8,9
  347 34 347 34 349 24 c 2,10,11
- 350 22 l 2,12,13
+ 349 24 349 24 350 22 c 2,12,13
  350 20 350 20 350 18 c 0,14,15
  350 -10 350 -10 320 -10 c 0,16,17
  309 -10 309 -10 287 -9 c 128,-1,18
@@ -15675,7 +15667,7 @@ Validated: 19457
 EndChar
 
 StartChar: Kappa
-Encoding: 922 922 62
+Encoding: 922 922 61
 Width: 878
 VWidth: 1000
 Flags: W
@@ -15873,7 +15865,7 @@ SplineSet
  508 693 508 693 508 672 c 2,94,-1
  508 670 l 2,95,96
  508 643 508 643 481 642 c 1,97,98
- 471 642 l 2,99,100
+ 481 642 481 642 471 642 c 2,99,100
  419 642 419 642 408 636 c 128,-1,101
  397 630 397 630 391 604 c 2,102,-1
  318 312 l 1,103,-1
@@ -15910,7 +15902,7 @@ Validated: 19457
 EndChar
 
 StartChar: Lambda
-Encoding: 923 923 63
+Encoding: 923 923 62
 Width: 713
 VWidth: 1000
 Flags: W
@@ -16049,7 +16041,7 @@ Validated: 19457
 EndChar
 
 StartChar: Mu
-Encoding: 924 924 64
+Encoding: 924 924 63
 Width: 1034
 VWidth: 1000
 Flags: W
@@ -16285,7 +16277,7 @@ SplineSet
  848 41 848 41 870 41 c 0,7,8
  893 41 893 41 900 37 c 0,9,10
  909 33 909 33 910 24 c 1,11,12
- 910 22 l 2,13,14
+ 910 24 910 24 910 22 c 258,13,14
  910 20 910 20 911 18 c 0,15,16
  911 -10 911 -10 882 -10 c 0,17,18
  872 -10 872 -10 851 -9 c 128,-1,19
@@ -16368,7 +16360,7 @@ Validated: 19457
 EndChar
 
 StartChar: Nu
-Encoding: 925 925 65
+Encoding: 925 925 64
 Width: 867
 VWidth: 1000
 Flags: W
@@ -16569,7 +16561,7 @@ SplineSet
  638 2 638 2 636 -1 c 0,2,3
  629 -8 629 -8 625 -9 c 0,4,5
  623 -10 623 -10 615 -10 c 2,6,7
- 608 -10 l 1,8,9
+ 615 -10 615 -10 608 -10 c 1,8,9
  603 -9 603 -9 597 -3 c 0,10,11
  595 0 595 0 588 14 c 2,12,-1
  332 592 l 1,13,-1
@@ -16630,7 +16622,7 @@ Validated: 19457
 EndChar
 
 StartChar: Xi
-Encoding: 926 926 66
+Encoding: 926 926 65
 Width: 813
 VWidth: 1000
 Flags: W
@@ -16948,7 +16940,7 @@ Validated: 3073
 EndChar
 
 StartChar: Omicron
-Encoding: 927 927 67
+Encoding: 927 927 66
 Width: 788
 VWidth: 1000
 Flags: W
@@ -17049,7 +17041,7 @@ Validated: 19457
 EndChar
 
 StartChar: Pi
-Encoding: 928 928 68
+Encoding: 928 928 67
 Width: 866
 VWidth: 1000
 Flags: W
@@ -17188,7 +17180,7 @@ SplineSet
  681 41 681 41 703 41 c 0,7,8
  726 41 726 41 733 37 c 0,9,10
  742 33 742 33 743 24 c 1,11,12
- 744 22 l 2,13,14
+ 743 24 743 24 744 22 c 2,13,14
  744 20 744 20 744 18 c 0,15,16
  744 -10 744 -10 714 -10 c 0,17,18
  689 -10 689 -10 649 -8 c 0,19,20
@@ -17251,7 +17243,7 @@ Validated: 19457
 EndChar
 
 StartChar: Rho
-Encoding: 929 929 69
+Encoding: 929 929 68
 Width: 800
 VWidth: 1000
 Flags: W
@@ -17406,7 +17398,7 @@ SplineSet
  283 41 283 41 305 41 c 0,24,25
  328 41 328 41 335 37 c 0,26,27
  344 33 344 33 345 24 c 1,28,29
- 346 22 l 2,30,31
+ 345 24 345 24 346 22 c 2,30,31
  346 20 346 20 346 18 c 0,32,33
  346 -10 346 -10 316 -10 c 0,34,35
  291 -10 291 -10 251 -8 c 0,36,37
@@ -17417,7 +17409,7 @@ SplineSet
  39 -1 l 2,44,45
  35 3 35 3 35 13 c 0,46,47
  37 39 37 39 62 41 c 1,48,49
- 75 41 l 2,50,51
+ 62 41 62 41 75 41 c 2,50,51
  124 41 124 41 134.5 46.5 c 128,-1,52
  145 52 145 52 151 78 c 2,53,-1
  286 618 l 2,54,55
@@ -17430,7 +17422,7 @@ SplineSet
  198 661 l 2,65,66
  198 663 198 663 198 665 c 0,67,68
  200 691 200 691 225 693 c 1,69,70
- 238 693 l 1,71,-1
+ 225 693 225 693 238 693 c 1,71,-1
  568 693 l 2,72,73
  666 693 666 693 723 646 c 128,-1,74
  780 599 780 599 780 531 c 0,75,76
@@ -17443,7 +17435,7 @@ Validated: 19457
 EndChar
 
 StartChar: Sigma
-Encoding: 931 931 70
+Encoding: 931 931 69
 Width: 843
 VWidth: 1000
 Flags: W
@@ -17586,7 +17578,7 @@ Validated: 19457
 EndChar
 
 StartChar: Tau
-Encoding: 932 932 71
+Encoding: 932 932 70
 Width: 742
 VWidth: 1000
 Flags: W
@@ -17769,7 +17761,7 @@ SplineSet
  364 41 364 41 400 41 c 0,8,9
  423 41 423 41 432 38 c 0,10,11
  442 34 442 34 444 23 c 1,12,13
- 444 18 l 2,14,15
+ 444 23 444 23 444 18 c 2,14,15
  444 -10 444 -10 413 -10 c 0,16,17
  410 -10 410 -10 371.5 -9 c 128,-1,18
  333 -8 333 -8 326 -8 c 0,19,20
@@ -17831,7 +17823,7 @@ Validated: 19457
 EndChar
 
 StartChar: YUpsilon
-Encoding: 933 933 72
+Encoding: 933 933 71
 Width: 752
 VWidth: 1000
 Flags: W
@@ -18074,7 +18066,7 @@ Validated: 19457
 EndChar
 
 StartChar: Phi
-Encoding: 934 934 73
+Encoding: 934 934 72
 Width: 685
 VWidth: 1000
 Flags: W
@@ -18449,7 +18441,7 @@ Validated: 19457
 EndChar
 
 StartChar: Chi
-Encoding: 935 935 74
+Encoding: 935 935 73
 Width: 848
 VWidth: 1000
 Flags: W
@@ -18614,7 +18606,7 @@ Validated: 19457
 EndChar
 
 StartChar: Psi
-Encoding: 936 936 75
+Encoding: 936 936 74
 Width: 731
 VWidth: 1000
 Flags: W
@@ -18980,7 +18972,7 @@ Validated: 19457
 EndChar
 
 StartChar: Omega
-Encoding: 937 937 76
+Encoding: 937 937 75
 Width: 834
 VWidth: 1000
 Flags: W
@@ -19189,7 +19181,7 @@ Validated: 19457
 EndChar
 
 StartChar: alpha
-Encoding: 945 945 77
+Encoding: 945 945 76
 Width: 658
 VWidth: 1000
 Flags: W
@@ -19363,7 +19355,7 @@ Validated: 3073
 EndChar
 
 StartChar: beta
-Encoding: 946 946 78
+Encoding: 946 946 77
 Width: 616
 VWidth: 1000
 Flags: W
@@ -19505,7 +19497,7 @@ Validated: 19457
 EndChar
 
 StartChar: gamma
-Encoding: 947 947 79
+Encoding: 947 947 78
 Width: 597
 VWidth: 1000
 Flags: W
@@ -19564,7 +19556,7 @@ SplineSet
  540 441 540 441 554 441 c 0,4,5
  562 441 562 441 566 438 c 1,6,7
  576 434 576 434 576 426 c 1,8,9
- 576 424 l 2,10,11
+ 576 426 576 426 576 424 c 258,10,11
  576 422 576 422 577 420 c 0,12,13
  577 417 577 417 576 415 c 0,14,15
  576 414 576 414 559 379 c 0,16,17
@@ -19600,7 +19592,7 @@ Validated: 19457
 EndChar
 
 StartChar: delta
-Encoding: 948 948 80
+Encoding: 948 948 79
 Width: 491
 VWidth: 1000
 Flags: W
@@ -19771,7 +19763,7 @@ Validated: 19457
 EndChar
 
 StartChar: varepsilon
-Encoding: 949 949 81
+Encoding: 949 949 80
 Width: 477
 VWidth: 1000
 Flags: W
@@ -19950,7 +19942,7 @@ Validated: 19457
 EndChar
 
 StartChar: zeta
-Encoding: 950 950 82
+Encoding: 950 950 81
 Width: 513
 VWidth: 1000
 Flags: W
@@ -20137,7 +20129,7 @@ Validated: 19457
 EndChar
 
 StartChar: eta
-Encoding: 951 951 83
+Encoding: 951 951 82
 Width: 541
 VWidth: 1000
 Flags: W
@@ -20537,7 +20529,7 @@ Validated: 19457
 EndChar
 
 StartChar: theta
-Encoding: 952 952 84
+Encoding: 952 952 83
 Width: 496
 VWidth: 1000
 Flags: W
@@ -20657,7 +20649,7 @@ Validated: 19457
 EndChar
 
 StartChar: iota
-Encoding: 953 953 85
+Encoding: 953 953 84
 Width: 363
 VWidth: 1000
 Flags: W
@@ -20931,7 +20923,7 @@ Validated: 19457
 EndChar
 
 StartChar: kappa
-Encoding: 954 954 86
+Encoding: 954 954 85
 Width: 592
 VWidth: 1000
 Flags: W
@@ -21142,7 +21134,7 @@ Validated: 19457
 EndChar
 
 StartChar: lambda
-Encoding: 955 955 87
+Encoding: 955 955 86
 Width: 599
 VWidth: 1000
 Flags: W
@@ -21224,7 +21216,7 @@ Validated: 19457
 EndChar
 
 StartChar: mu
-Encoding: 956 956 88
+Encoding: 956 956 87
 Width: 619
 VWidth: 1000
 Flags: W
@@ -21545,7 +21537,7 @@ Validated: 19457
 EndChar
 
 StartChar: nu
-Encoding: 957 957 89
+Encoding: 957 957 88
 Width: 567
 VWidth: 1000
 Flags: W
@@ -21717,7 +21709,7 @@ Validated: 19457
 EndChar
 
 StartChar: xi
-Encoding: 958 958 90
+Encoding: 958 958 89
 Width: 484
 VWidth: 1000
 Flags: W
@@ -21973,7 +21965,7 @@ Validated: 19457
 EndChar
 
 StartChar: omicron
-Encoding: 959 959 91
+Encoding: 959 959 90
 Width: 512
 VWidth: 1000
 Flags: W
@@ -22075,7 +22067,7 @@ Validated: 19457
 EndChar
 
 StartChar: pi
-Encoding: 960 960 92
+Encoding: 960 960 91
 Width: 613
 VWidth: 1000
 Flags: W
@@ -22242,7 +22234,7 @@ Validated: 19457
 EndChar
 
 StartChar: rho
-Encoding: 961 961 93
+Encoding: 961 961 92
 Width: 546
 VWidth: 1000
 Flags: W
@@ -22360,7 +22352,7 @@ Validated: 19457
 EndChar
 
 StartChar: sigmafinal
-Encoding: 962 962 94
+Encoding: 962 962 93
 Width: 449
 VWidth: 1000
 Flags: W
@@ -22532,7 +22524,7 @@ Validated: 19457
 EndChar
 
 StartChar: sigma
-Encoding: 963 963 95
+Encoding: 963 963 94
 Width: 612
 VWidth: 1000
 Flags: W
@@ -22647,7 +22639,7 @@ Validated: 19457
 EndChar
 
 StartChar: tau
-Encoding: 964 964 96
+Encoding: 964 964 95
 Width: 556
 VWidth: 1000
 Flags: W
@@ -22741,7 +22733,7 @@ Validated: 19457
 EndChar
 
 StartChar: upsilon
-Encoding: 965 965 97
+Encoding: 965 965 96
 Width: 568
 VWidth: 1000
 Flags: W
@@ -22902,7 +22894,7 @@ Validated: 19457
 EndChar
 
 StartChar: varphi
-Encoding: 966 966 98
+Encoding: 966 966 97
 Width: 671
 VWidth: 1000
 Flags: W
@@ -23034,7 +23026,7 @@ LayerCount: 2
 Fore
 SplineSet
 298 61 m 1,0,1
- 317 61 l 2,2,3
+ 298 61 298 61 317 61 c 2,2,3
  426 61 426 61 509.5 129.5 c 128,-1,4
  593 198 593 198 593 280 c 0,5,6
  593 321 593 321 569 345.5 c 128,-1,7
@@ -23085,7 +23077,7 @@ Validated: 19457
 EndChar
 
 StartChar: chi
-Encoding: 967 967 99
+Encoding: 967 967 98
 Width: 640
 VWidth: 1000
 Flags: W
@@ -23167,7 +23159,7 @@ Fore
 SplineSet
 365 132 m 1,0,1
  456 -157 456 -157 498 -170 c 1,2,3
- 501 -170 l 2,4,5
+ 498 -170 498 -170 501 -170 c 2,4,5
  507 -170 507 -170 514.5 -167.5 c 128,-1,6
  522 -165 522 -165 532 -156 c 128,-1,7
  542 -147 542 -147 547 -133 c 0,8,9
@@ -23228,7 +23220,7 @@ Validated: 19457
 EndChar
 
 StartChar: psi
-Encoding: 968 968 100
+Encoding: 968 968 99
 Width: 682
 VWidth: 1000
 Flags: W
@@ -23418,7 +23410,7 @@ Validated: 19457
 EndChar
 
 StartChar: omega
-Encoding: 969 969 101
+Encoding: 969 969 100
 Width: 652
 VWidth: 1000
 Flags: W
@@ -23611,7 +23603,7 @@ Validated: 19457
 EndChar
 
 StartChar: vartheta
-Encoding: 977 977 102
+Encoding: 977 977 101
 Width: 609
 VWidth: 1000
 Flags: W
@@ -23926,7 +23918,7 @@ Validated: 19457
 EndChar
 
 StartChar: Upsilon
-Encoding: 978 978 103
+Encoding: 978 978 102
 Width: 748
 VWidth: 1000
 Flags: W
@@ -24149,7 +24141,7 @@ Validated: 19457
 EndChar
 
 StartChar: phi
-Encoding: 981 981 104
+Encoding: 981 981 103
 Width: 619
 VWidth: 1000
 Flags: W
@@ -24466,7 +24458,7 @@ Validated: 19457
 EndChar
 
 StartChar: varpi
-Encoding: 982 982 105
+Encoding: 982 982 104
 Width: 870
 VWidth: 1000
 Flags: W
@@ -24618,7 +24610,7 @@ Fore
 SplineSet
 728 359 m 1,0,-1
  275 359 l 1,1,2
- 261 359 l 1,3,4
+ 275 359 275 359 261 359 c 1,3,4
  237 337 237 337 199 272 c 128,-1,5
  161 207 161 207 161 142 c 0,6,7
  161 61 161 61 221 61 c 128,-1,8
@@ -24629,7 +24621,7 @@ SplineSet
  487 298 487 298 488 294 c 2,16,-1
  490 284 l 1,17,-1
  490 281 l 1,18,19
- 490 280 l 2,20,21
+ 490 281 490 281 490 280 c 258,20,21
  490 279 490 279 489 277.5 c 128,-1,22
  488 276 488 276 488 273 c 0,23,24
  474 212 474 212 474 169 c 0,25,26
@@ -24675,7 +24667,7 @@ Validated: 19457
 EndChar
 
 StartChar: varrho
-Encoding: 1009 1009 106
+Encoding: 1009 1009 105
 Width: 503
 VWidth: 1000
 Flags: W
@@ -24823,7 +24815,7 @@ Validated: 19457
 EndChar
 
 StartChar: epsilon
-Encoding: 1013 1013 107
+Encoding: 1013 1013 106
 Width: 416
 VWidth: 1000
 Flags: W
@@ -24943,7 +24935,7 @@ Validated: 19457
 EndChar
 
 StartChar: setascender
-Encoding: 31 31 108
+Encoding: 31 31 107
 Width: 155
 VWidth: 1000
 Flags: W
@@ -24978,7 +24970,7 @@ LayerCount: 2
 Fore
 SplineSet
 107 787 m 10,0,1
- 107 -229 l 2,2,3
+ 107 787 107 787 107 -229 c 2,2,3
  107 -236 107 -236 95 -248 c 128,-1,4
  83 -260 83 -260 80 -260 c 0,5,6
  66 -260 66 -260 57 -251 c 128,-1,7
@@ -24992,7 +24984,7 @@ Validated: 19457
 EndChar
 
 StartChar: digit0
-Encoding: 48 48 109
+Encoding: 48 48 108
 Width: 511
 VWidth: 1000
 Flags: W
@@ -25108,7 +25100,7 @@ Validated: 19457
 EndChar
 
 StartChar: digit1
-Encoding: 49 49 110
+Encoding: 49 49 109
 Width: 511
 VWidth: 1000
 Flags: W
@@ -25230,7 +25222,7 @@ Validated: 19457
 EndChar
 
 StartChar: digit2
-Encoding: 50 50 111
+Encoding: 50 50 110
 Width: 511
 VWidth: 1000
 Flags: W
@@ -25490,7 +25482,7 @@ Validated: 19457
 EndChar
 
 StartChar: digit3
-Encoding: 51 51 112
+Encoding: 51 51 111
 Width: 511
 VWidth: 1000
 Flags: W
@@ -25759,7 +25751,7 @@ Validated: 19457
 EndChar
 
 StartChar: digit4
-Encoding: 52 52 113
+Encoding: 52 52 112
 Width: 511
 VWidth: 1000
 Flags: W
@@ -26018,7 +26010,7 @@ Validated: 19457
 EndChar
 
 StartChar: digit5
-Encoding: 53 53 114
+Encoding: 53 53 113
 Width: 511
 VWidth: 1000
 Flags: W
@@ -26239,14 +26231,14 @@ SplineSet
  577 631 577 631 510.5 589.5 c 128,-1,58
  444 548 444 548 369 548 c 0,59,60
  330 548 330 548 304 558 c 1,61,62
- 300 559 l 1,63,64
+ 304 558 304 558 300 559 c 1,63,64
  299 556 299 556 299 555 c 2,0,-1
 EndSplineSet
 Validated: 19457
 EndChar
 
 StartChar: digit6
-Encoding: 54 54 115
+Encoding: 54 54 114
 Width: 511
 VWidth: 1000
 Flags: W
@@ -26425,7 +26417,7 @@ Validated: 19457
 EndChar
 
 StartChar: digit7
-Encoding: 55 55 116
+Encoding: 55 55 115
 Width: 511
 VWidth: 1000
 Flags: W
@@ -26637,7 +26629,7 @@ Validated: 19457
 EndChar
 
 StartChar: digit8
-Encoding: 56 56 117
+Encoding: 56 56 116
 Width: 511
 VWidth: 1000
 Flags: W
@@ -26812,7 +26804,7 @@ Validated: 19457
 EndChar
 
 StartChar: digit9
-Encoding: 57 57 118
+Encoding: 57 57 117
 Width: 511
 VWidth: 1000
 Flags: W
@@ -26986,7 +26978,7 @@ Validated: 19457
 EndChar
 
 StartChar: exclamation
-Encoding: 33 33 119
+Encoding: 33 33 118
 Width: 306
 VWidth: 1000
 Flags: W
@@ -27061,7 +27053,7 @@ Validated: 19457
 EndChar
 
 StartChar: dquote
-Encoding: 34 34 120
+Encoding: 34 34 119
 Width: 514
 VWidth: 1000
 Flags: W
@@ -27209,7 +27201,7 @@ Validated: 19457
 EndChar
 
 StartChar: number
-Encoding: 35 35 121
+Encoding: 35 35 120
 Width: 817
 VWidth: 1000
 Flags: W
@@ -27346,7 +27338,7 @@ Validated: 19457
 EndChar
 
 StartChar: percent
-Encoding: 37 37 122
+Encoding: 37 37 121
 Width: 817
 VWidth: 1000
 Flags: W
@@ -27578,7 +27570,7 @@ Validated: 19457
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 123
+Encoding: 38 38 122
 Width: 766
 VWidth: 1000
 Flags: W
@@ -27843,7 +27835,7 @@ SplineSet
  116 89 116 89 116 176 c 0,11,12
  116 215 116 215 139 275.5 c 128,-1,13
  162 336 162 336 212 390 c 1,14,15
- 211 392 l 2,16,-1
+ 212 390 212 390 211 392 c 2,16,-1
  211 393 l 1,17,-1
  210 393 l 2,18,19
  201 422 201 422 201 456 c 0,20,21
@@ -27918,7 +27910,7 @@ Validated: 19457
 EndChar
 
 StartChar: quote
-Encoding: 39 39 124
+Encoding: 39 39 123
 Width: 306
 VWidth: 1000
 Flags: W
@@ -28005,7 +27997,7 @@ Validated: 19457
 EndChar
 
 StartChar: lparen
-Encoding: 40 40 125
+Encoding: 40 40 124
 Width: 408
 VWidth: 1000
 Flags: W
@@ -28083,7 +28075,7 @@ Validated: 19457
 EndChar
 
 StartChar: rparen
-Encoding: 41 41 126
+Encoding: 41 41 125
 Width: 408
 VWidth: 1000
 Flags: W
@@ -28161,7 +28153,7 @@ Validated: 19457
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 127
+Encoding: 42 42 126
 Width: 511
 VWidth: 1000
 Flags: W
@@ -28295,7 +28287,7 @@ Validated: 19457
 EndChar
 
 StartChar: plus
-Encoding: 43 43 128
+Encoding: 43 43 127
 Width: 766
 VWidth: 1000
 Flags: W
@@ -28465,7 +28457,7 @@ Validated: 19457
 EndChar
 
 StartChar: comma
-Encoding: 44 44 129
+Encoding: 44 44 128
 Width: 306
 VWidth: 1000
 Flags: W
@@ -28551,7 +28543,7 @@ Validated: 19457
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 130
+Encoding: 45 45 129
 Width: 357
 VWidth: 1000
 Flags: W
@@ -28606,7 +28598,7 @@ Validated: 19457
 EndChar
 
 StartChar: period
-Encoding: 46 46 131
+Encoding: 46 46 130
 Width: 306
 VWidth: 1000
 Flags: W
@@ -28668,7 +28660,7 @@ Validated: 19457
 EndChar
 
 StartChar: slash
-Encoding: 47 47 132
+Encoding: 47 47 131
 Width: 511
 VWidth: 1000
 Flags: W
@@ -28691,7 +28683,7 @@ Validated: 3073
 EndChar
 
 StartChar: colon
-Encoding: 58 58 133
+Encoding: 58 58 132
 Width: 306
 VWidth: 1000
 Flags: W
@@ -28794,7 +28786,7 @@ Validated: 19457
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 134
+Encoding: 59 59 133
 Width: 306
 VWidth: 1000
 Flags: W
@@ -28914,7 +28906,7 @@ Validated: 19457
 EndChar
 
 StartChar: equal
-Encoding: 61 61 135
+Encoding: 61 61 134
 Width: 766
 VWidth: 1000
 Flags: W
@@ -28967,7 +28959,7 @@ Validated: 19457
 EndChar
 
 StartChar: question
-Encoding: 63 63 136
+Encoding: 63 63 135
 Width: 511
 VWidth: 1000
 Flags: W
@@ -29183,7 +29175,7 @@ Validated: 19457
 EndChar
 
 StartChar: lbracket
-Encoding: 91 91 137
+Encoding: 91 91 136
 Width: 306
 VWidth: 1000
 Flags: W
@@ -29296,7 +29288,7 @@ Validated: 19457
 EndChar
 
 StartChar: rbracket
-Encoding: 93 93 138
+Encoding: 93 93 137
 Width: 306
 VWidth: 1000
 Flags: W
@@ -29415,7 +29407,7 @@ Validated: 19457
 EndChar
 
 StartChar: hat
-Encoding: 94 94 139
+Encoding: 94 94 138
 Width: 511
 VWidth: 1000
 Flags: W
@@ -29486,7 +29478,7 @@ Validated: 3073
 EndChar
 
 StartChar: bquotet
-Encoding: 96 96 140
+Encoding: 96 96 139
 Width: 306
 VWidth: 1000
 Flags: W
@@ -29571,7 +29563,7 @@ Validated: 19457
 EndChar
 
 StartChar: tilde
-Encoding: 126 126 141
+Encoding: 126 126 140
 Width: 511
 VWidth: 1000
 Flags: W
@@ -29676,7 +29668,7 @@ Validated: 19457
 EndChar
 
 StartChar: atmark
-Encoding: 64 64 142
+Encoding: 64 64 141
 Width: 766
 VWidth: 1000
 Flags: W
@@ -29945,6 +29937,14 @@ SplineSet
  553 241 553 241 560 270 c 2,68,-1
 EndSplineSet
 Validated: 19457
+EndChar
+
+StartChar: space
+Encoding: 32 32 142
+Width: 340
+VWidth: 1000
+Flags: WO
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
